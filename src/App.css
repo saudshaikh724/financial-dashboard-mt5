@@ -1,0 +1,176 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.AppHeader{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.AppFooter{
+height: 50px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-top: 1px solid rgba(0, 0, 0, 0.15);
+
+}
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.05) ;
+}
+.SideMenu{
+    height: 100%;
+}
+.SideMenuVertical{
+    height: 100%;
+}
+.PageContent{
+    padding-left: 12px;
+}
+
+.border-right{
+    border-right: 1px solid #CFCFCF;
+  }
+  
+  .border-left{
+    border-left: 1px solid #CFCFCF;
+  }
+  
+  .font-12{
+      font-size: 12px !important;
+  }
+  .font-13{
+    font-size: 13px !important;
+  }
+  .font-14{
+    font-size: 14px !important;
+  }
+  .font-16{
+    font-size: 16px !important;
+  }
+  .font-18{
+    font-size: 18px !important;
+  }
+  .font-22{
+    font-size: 22x !important;
+  }
+  .font-24{
+    font-size: 24px !important;
+  }
+  
+  .f-400{
+    font-weight: 400 !important;
+  }
+  .f-500{
+    font-weight: 500 !important;
+  }
+  .f-600{
+    font-weight: 600 !important;
+    margin-top: 10px;
+  }
+  .sucess{
+    color: #34B26F !important;
+  }
+  .danger{
+    color: #E31C41 !important;
+  }
+
+  .container {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .symbol-table {
+    width: 100%;
+    border-collapse: separate; /* Use 'separate' to enable spacing */
+    /* border-spacing: 0 8px; Adds spacing between rows */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: transparent; /* Makes the table background transparent */
+  }
+  
+  .symbol-table th,
+  .symbol-table td {
+    border: none; /* Remove border */
+    padding: 4px; /* Reduce padding for a more compact look */
+    text-align: left;
+    font-size: 0.780rem; /* Smaller font size */
+  }
+  
+  .symbol-table th {
+    background-color: rgba(242, 242, 242, 0.8); /* Semi-transparent background for headers */
+    font-weight: 700;
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  }
+  
+  .symbol-table tbody tr {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for rows */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  }
+  
+  .symbol-table tbody tr:nth-child(even) {
+    background-color: rgba(249, 249, 249, 0.8); /* Semi-transparent light grey for even rows */
+  }
+  
+  .symbol-table tbody tr:hover {
+    background-color: rgba(241, 241, 241, 0.8); /* Slightly darker grey on hover */
+  }
+  
+  .symbol-table td {
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .hoverable:hover {
+    background-color: #f0f0f0;
+    color: #333; /* change text color to dark gray */
+    border-bottom: 1px solid #ccc; /* add a bottom border */
+    cursor: pointer;
+  }
+
+  tr:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+  }
+
+
+.coming-soon-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Example: limit width for better readability */
+    padding: 20px; /* Example: add padding for better spacing */
+    background-color: #f0f0f0; /* Example: add a background color */
+    border-radius: 10px; /* Example: add border radius for a rounded look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example: add a subtle box shadow */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.coming-soon-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.coming-soon-container p {
+    font-size: 1.2rem;
+    color: #666;
+}
