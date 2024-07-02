@@ -23,8 +23,8 @@ Market Watch, Market Overview, Account Summary, and Trading History.
 
 2. **Create a virtual environment and activate it:**
    python -m venv env
-   # For Linux, use `source env/bin/activate`
-   # On Windows, use `venv/Scripts/activate`
+    For Linux, use `source env/bin/activate`
+    For Windows, use `venv/Scripts/activate`
 
 3. **Install the dependencies:**
    pip install -r requirements.txt
